@@ -10,7 +10,16 @@ Write a program that asks the user his/her age and check for the following condi
 - `if` the age is greater than 55 then print the message " You are too old to participate in the marthon".
 👇
 */
-
+let age = Number(prompt("enter your age?"));
+if(age<4){
+  alert("Hey Kiddo! Can You Walk?")
+}else if(age<11){
+  alert("You are too young to participate in the marathon")
+}else if(age<55){
+  alert("You can participate in the marathon")
+}else if(age>55){
+  alert("You are too old to participate in the marthon")
+};
 // Loops
 /*
 Given a positive integer `n`. Print the word (hello) in format of heeeello (letter 'e' must be repeated `n` times). Take input from prompt and print the result in alert.
@@ -21,11 +30,13 @@ n = 7 => output: heeeeeeello
 👇
 */
 // [Your code goes here]
-
-/*
-Program to calculate the sum of first n natural numbers(1,2,3...n are known as natural numbers). Prompt user to enter n (using `prompt`) then based on input provided calculate and show result in `alert`.
-👇
-*/
+// let positiveInteger = Number(prompt("Enter a number?"))
+// for(n=1; n<=7; n=n=1 ){
+//   console.log(n)
+// };
+// // Program to calculate the sum of first n natural numbers(1,2,3...n are known as natural numbers). Prompt user to enter n (using `prompt`) then based on input provided calculate and show result in `alert`.
+// 👇
+// */
 // [Your code goes here]
 
 /* Switch Statement
@@ -86,3 +97,19 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
 */
 
 // [Your code goes here]
+
+let operator = prompt("Enter operations");
+let numA = +prompt("enter number 1")
+let numB = +prompt("enter number 2")
+
+if(operator === "+"){
+  alert(numA+ numB) 
+}else if(operator === "-"){
+  alert(numA - numB) 
+}else if(operator === "*"){
+  alert(numA * numB) 
+}else if(operator === "/"){
+  alert(numA / numB) 
+}else{
+  alert("Enter a valid operator") 
+};
