@@ -6,22 +6,39 @@
 4. Now change the value of `user` to `John` and log the value of both `user` and `userName`.
 */
 let user = prompt("Enter your Name?");
+alert("Enter your Name");
+let userName = user;
+console.log(user);
+console.log(userName);
+let age = "22" , islearning = "true";
+user = "john"
+console.log(user);
+console.log(userName);
 /* 2.
 Use `prompt` to take two numbers from user and store it in variable `numA` and `numB`. Create a third variable called `sum`, using `+` operator add numA and numB , store it in varible `sum` and using alert display `sum` in browser.
 */
+let numA = Number(prompt("enter a number?"));
+let numB = Number(prompt("enter a number?"));
+let sum = numA + numB;
 
 // Loops
 
 // 3. Complete the following code to make the output be 0 2 4 6 8 10?
 
-for (let j = 0; j <= 10; ____) console.log(j);
+for (let j = 0; j <= 10; __j=j+2) console.log(j);
 
-// 4. Print the odd numbers from 9 to 1 (both inclusive) using a for loop.
 
+// 4. Print the odd numb    ers from 9 to 1 (both inclusive) using a for loop.
+let num = i;
+for(let i = 1; i = 9; i = i+1){
+    if(num % 2 == 0){
+        console.log(i)
+    }
+};                                                                                                                          
 // 5. Concat all the numbers from 5 to 0 (both inclusive) in descending order using a while loop. (543210)
 
 // 6. Concat all the even numbers from 10 to 0 (both inclusive) in descending order using a while loop. (1086420)
-
+for(let i = 0; i <= 10; )
 // Comparisoin
 
 /* 7. Take two value using prompt and store them in variables `num1` and `num2`. Check whether they are equal or not.
@@ -36,3 +53,6 @@ Example:
 "hello", -21; // false
 
 */
+let num1 = Number(prompt("Enter a number?"));
+let num2 = Number(prompt("Enter a number?"));
+num1 == num2;
