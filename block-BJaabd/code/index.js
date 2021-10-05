@@ -30,10 +30,10 @@ n = 7 => output: heeeeeeello
 👇
 */
 // [Your code goes here]
-// let positiveInteger = Number(prompt("Enter a number?"))
-// for(n=1; n<=7; n=n=1 ){
-//   console.log(n)
-// };
+let positiveInteger = Number(prompt("Enter a number?"))
+for(n=1; n<= 7; n=n+1 ){
+  console.log(n)
+};
 // // Program to calculate the sum of first n natural numbers(1,2,3...n are known as natural numbers). Prompt user to enter n (using `prompt`) then based on input provided calculate and show result in `alert`.
 // 👇
 // */
@@ -46,7 +46,7 @@ n = 7 => output: heeeeeeello
 Take a number value from user and alert the message if it matches the conditions.
 * [ ] ONE, if `number` is equal to 1.
 * [ ] TWO, if `number` is equal to 2.
-* [ ] THREE, if `number` is equal to 3.
+* [ ] THREE, if `number` is equal to 3
 * [ ] FOUR, if `number` is equal to 4.
 * [ ] FIVE, if `number` is equal to 5.
 * [ ] SIX, if `number` is equal to 6.
